@@ -1,0 +1,353 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: white;
+    padding: 0;
+}
+
+.log
+{
+    padding: 5px;
+    margin-left: 20px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    width: 110px;
+    border-radius: 5px;
+    background-color: blue;
+}
+.log a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+#i
+{
+    padding: 5px;
+}
+.call {
+    padding: 5px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    background-color: blue;
+    width: 150px;
+}
+.call a{
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+
+#pic1
+{
+    height: 80px;
+    width: 200px;
+}
+.top{
+    margin-left: 35px;
+    margin-right: 180px;
+}
+.head a{
+    font-family:sans-serif;
+    color: #221638;
+    font-size: 20px;
+    text-decoration: none;
+}
+.head{ 
+    margin-right: 20px;
+    padding: 20px;
+}
+.head a:hover{
+    color: blue;
+}
+
+/* section */
+#sec1
+{
+    padding: 20px;
+    display: flex;
+    margin-bottom: 10px;
+    background-color: rgba(240, 248, 255, 0.77);
+}
+.container
+{
+    
+    height: 500px;
+    width: 500px;
+    margin-right: 20px;
+}
+h1{
+    font-family:sans-serif;
+    font-size: 38px;
+    color: #221638;
+    margin-left: 22px;
+}
+#first span{
+    font-size: 53px;
+    color: #f16227;
+    
+}
+.photo
+{
+    text-align: center;
+    padding: 20px;
+    height: 102px;
+    width: 371px;
+    position: absolute;
+    margin-bottom: 10px;
+}
+.photo2
+{
+    text-align: center;
+    padding: 30px;
+    margin-top: 100px;
+    height: 80px;
+    width: 200px;
+    background-size: cover;
+    position: relative;
+}
+/*  */
+.char
+{
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    height: 100%;
+    width: 350px;
+    margin-right: 55px;
+    
+}
+.char:hover
+{
+    box-shadow: 10px 10px 10px lightblue;
+    
+}
+.char2:hover
+{
+    box-shadow: 10px 10px 10px lightblue;
+    
+}
+.char p
+{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+.image
+{
+    margin: 0;
+}
+.char button{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.559);
+    width: 160px;
+}
+.char2
+{
+    border-radius: 10px;
+    position: relative;
+    text-align: center;
+    border: 1px solid black;
+    height: 100%;
+    width: 350px;
+  
+}
+.char2 button{
+    padding: 5px;
+    text-align: center;
+    color: white;
+    height: 50px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.559);
+    width: 160px;
+}
+.char2  p
+{
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+}
+#tab
+{
+    padding-right:0px;
+    padding-left: 100px;
+}
+.iso img
+{
+     padding-top: 3px;
+    height: 120px;
+    width: 210px;
+    background-size: cover;
+}
+/*  */
+#mid2
+{
+    margin-top: 20px;
+    height: 400px;
+    margin-bottom: 20px;
+    /* background-color: aliceblue; */
+}
+.courses
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.second
+{
+    border-radius: 5px;
+    height: 300px;
+    width: 300px;
+}
+/* tek properties */
+
+.gallery
+{
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 10px;
+
+}
+.gal{
+    
+    border: 1px solid rgba(0, 0, 0, 0.8);  
+    font-size: 30px;
+    text-align: center;
+}
+.gal img{
+    height: 300px;
+    width: 100%;
+    background-size: cover;
+}
+/*  */
+#contain
+{
+    background-color: rgba(240, 248, 255, 0.752);
+    display: flex;
+    justify-content: space-evenly;
+}
+.contact
+{
+    width: 650px;
+}
+.login
+{
+    border-radius: 10px;
+    background-color: blue;
+    padding: 20px;
+}
+.login input
+{
+    background-color: antiquewhite;
+    font-size: medium;
+    border-radius: 4px;
+    height: 50px;
+   width: 100%;
+}
+.login button{
+    height: 50px;
+    width: 150px;
+    background-color: black;
+    color: white;
+    font-size: 30px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+/* footor */
+footer{
+    margin-top: 25px;
+    padding: 10px;
+    background-color: rgb(0, 0, 0);
+}
+.last
+{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.four
+{
+    color: white;
+    padding: 10px;
+    height: 300px;
+    width: 400px;
+}
+.four i{
+    color: blue;
+}
+.four span{
+    font-size: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+.four h1{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+#foot
+{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+/* drop down */
+
+/* .dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+} */
+
+.dropbtn:hover, .dropbtn:focus
+{
+    background-color: #2980B9;
+}
+  
+.dropdown 
+{
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown a:hover 
+{
+    background-color: #ddd;
+}
+  
+.show 
+{
+    display: block;
+}
